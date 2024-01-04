@@ -2,7 +2,17 @@ public class Main
 {
     public static void main(String[] args)
     {
-        System.out.println("Hello, world!");
-        System.out.println("By: Josh");
+        printMessage("Hello, world!");
+        printMessage("By: Josh");
+    }
+
+    private static void printMessage(String message)
+    {
+        System.out.println(message);
+    }
+
+    private static void printHello()
+    {
+        System.out.println("Hello");
     }
 }
